@@ -14,7 +14,7 @@
 <meta property="og:description" content="Hexoでブログを作ったは良いが，本格的に運用を始めるまでに色々とカスタマイズしたい。実際にカスタマイズした内容について記載しておく。全体的に「Hexo と Github Pages で簡単シンプルブログを作成するときに参考にさせてもらったサイトまとめ」を参考にした。">
 <meta property="og:locale" content="ja">
 <meta property="og:image" content="https://yatakemi.github.io/2017/09/02/hexo-settings/hexo.png">
-<meta property="og:updated_time" content="2017-09-02T07:41:20.000Z">
+<meta property="og:updated_time" content="2017-09-02T07:57:32.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexoでブログを始める前に設定するあれこれ">
 <meta name="twitter:description" content="Hexoでブログを作ったは良いが，本格的に運用を始めるまでに色々とカスタマイズしたい。実際にカスタマイズした内容について記載しておく。全体的に「Hexo と Github Pages で簡単シンプルブログを作成するときに参考にさせてもらったサイトまとめ」を参考にした。">
@@ -75,7 +75,7 @@ ga('send', 'pageview');
         
           <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Søk"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://yatakemi.github.io"></form>
@@ -142,8 +142,9 @@ ga('send', 'pageview');
 <li><a href="https://azriton.github.io/2017/02/26/Hexo%E3%81%AB%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%E6%AC%84%E3%81%AEDisqus%E3%82%92%E8%A8%AD%E7%BD%AE/" target="_blank" rel="external">Hexo に コメント欄 の Disqus を 設置</a>   </li>
 </ul>
 <h1><span id="画像の投稿">画像の投稿</span></h1><p>_config.ymlの設定で以下を設定。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">post_asset_folder true</div></pre></td></tr></table></figure></p>
-<p>すると，<code>hexo new XXXX</code>で記事を作成した時に同名のフォルダができるので，そこに画像を配置する。<br>記載は下記の通りHexo記法で記載する。</p>
+<p>すると，<code>hexo new XXXX</code>で記事を作成した時に同名のフォルダができるので，そこに画像を配置する。<br>記載は下記の通りHexo記法で記載する。(caption消したいんだが，これはどうすればいいのか。。。)  </p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% asset_img hexo.png %&#125;</div></pre></td></tr></table></figure>
+<p>本当はimgタグで設定したかったがpathがうまくいかなかった  </p>
 <h1><span id="おわりに">おわりに</span></h1><p>あとはテーマを変更すればひとまず完成かな。。。少しずつ進めてきたので，完成までの道のりは長い</p>
 
       
@@ -151,7 +152,7 @@ ga('send', 'pageview');
     <footer class="article-footer">
       <a data-url="https://yatakemi.github.io/2017/09/02/hexo-settings/" data-id="cj72ywxte0001s82h8c4xqqyq" class="article-share-link">Share</a>
       
-        <a href="https://yatakemi.github.io/2017/09/02/hexo-settings/#disqus_thread" class="article-comment-link">Comments</a>
+        <a href="https://yatakemi.github.io/2017/09/02/hexo-settings/#disqus_thread" class="article-comment-link">Kommentarer</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Github/">Github</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
@@ -207,7 +208,7 @@ ga('send', 'pageview');
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
+    <h3 class="widget-title">Arkiv</h3>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/09/">9月 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">8月 2017</a></li></ul>
     </div>
@@ -217,7 +218,7 @@ ga('send', 'pageview');
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">Siste innlegg</h3>
     <div class="widget">
       <ul>
         
