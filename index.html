@@ -101,46 +101,13 @@ ga('send', 'pageview');
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="/2017/08/28/hexo-settings/hexo.png">  </p>
-<p><img src="/hexo-settings/hexo.png" alt="">  </p>
-<img src="/2017/09/02/hexo-settings/hexo.png" alt="hexo.png" title="">  
+        <img src="/2017/09/02/hexo-settings/hexo.png" alt="hexo.png" title="">  
 <p><a href="2017/08/18/createHexoBlog/createHexoBlog">Hexoでブログを作ったは良いが</a>，本格的に運用を始めるまでに色々とカスタマイズしたい。<br>実際にカスタマイズした内容について記載しておく。<br>全体的に「<a href="http://www.fascinatedwithtofu.com/2017/02/02/hexo-matome/" target="_blank" rel="external">Hexo と Github Pages で簡単シンプルブログを作成するときに参考にさせてもらったサイトまとめ</a>」を参考にした。  </p>
-<h1><span id="目次">目次</span></h1><!-- toc -->
-<ul>
-<li><a href="#sitemapxmlの生成と登録">sitemap.xmlの生成と登録</a></li>
-<li><a href="#目次の表示">目次の表示</a></li>
-<li><a href="#google-analyticsの設定">Google Analyticsの設定</a></li>
-<li><a href="#コメント欄の設置">コメント欄の設置</a></li>
-<li><a href="#画像の投稿">画像の投稿</a></li>
-<li><a href="#おわりに">おわりに</a></li>
-</ul>
-<!-- tocstop -->
-<h1><span id="sitemapxmlの生成と登録">sitemap.xmlの生成と登録</span></h1><p>オフィシャルでhexo-generator-sitemapというのがあるらしいですが，今回はhexo-generator-seo-friendly-sitemapというプラグインを使った。<br>(seo-friendlyって書いてあるし！)</p>
-<p>参考：  </p>
-<ul>
-<li><a href="https://azriton.github.io/2016/11/07/Hexo%E3%81%AE%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%81%A8%E3%82%B5%E3%82%A4%E3%83%88%E3%83%9E%E3%83%83%E3%83%97%E3%82%92%E8%A8%AD%E5%AE%9A/" target="_blank" rel="external">Hexo の フィード と サイトマップ を 設定</a></li>
-<li><a href="http://www.sitemapxml.jp/index.php?page=google-sitemap" target="_blank" rel="external">Googleにサイトマップを送信・登録</a></li>
-</ul>
-<h1><span id="目次の表示">目次の表示</span></h1><p>目次を自動挿入したいなと思い<a href="https://github.com/bubkoo/hexo-toc" target="_blank" rel="external">hexo-toc</a>というプラグインを使うことにした。<br>下記のように目次の項目を追加している。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># 目次</div><div class="line">&lt;!-- toc --&gt;</div></pre></td></tr></table></figure></p>
-<p>参考:  </p>
-<ul>
-<li><a href="https://tea3.github.io/p/usecase-of-hexo-plugin/#hexo-toc" target="_blank" rel="external">Hexoブログで使っているプラグインを晒してみる</a>  </li>
-</ul>
-<h1><span id="google-analyticsの設定">Google Analyticsの設定</span></h1><p>訪問者がバンバン来るようになる(かどうかは不明だけども)までに，ちゃんと分析できる環境を整えておきたい。<br>ので，Google Analyticsの設定をした。</p>
-<p>参考：  </p>
-<ul>
-<li><a href="https://azriton.github.io/2016/12/20/Hexo%E3%81%ABGoogle-Analytics%E3%82%92%E8%A8%AD%E7%BD%AE%E3%81%99%E3%82%8B/" target="_blank" rel="external">HexoにGoogle Analyticsを設置する</a>  </li>
-</ul>
-<h1><span id="コメント欄の設置">コメント欄の設置</span></h1><p><a href="https://disqus.com/" target="_blank" rel="external">Disqus</a>でコメント欄を設置した。<br>参考サイトだとHexo自体の_config.xmlにdisqus_shortnameを記載すれば良いとのことだったが，themesの方の_config.xmlに記載されなかったので，そちらにも記載した。  </p>
-<p>参考：</p>
-<ul>
-<li><a href="https://yoshinorin.net/2016/11/04/setup-disqus-to-blog/" target="_blank" rel="external">Disqusを使ってサイトにコメント欄を設置しました &amp; コメント欄を設置した理由</a>  </li>
-<li><a href="https://azriton.github.io/2017/02/26/Hexo%E3%81%AB%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%E6%AC%84%E3%81%AEDisqus%E3%82%92%E8%A8%AD%E7%BD%AE/" target="_blank" rel="external">Hexo に コメント欄 の Disqus を 設置</a>   </li>
-</ul>
-<h1><span id="画像の投稿">画像の投稿</span></h1><p>_config.ymlの設定で以下を設定。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">post_asset_folder true</div></pre></td></tr></table></figure></p>
-<p>すると，<code>hexo new XXXX</code>で記事を作成した時に同名のフォルダができるので，そこに画像を配置する。<br>投稿は細かい調整が効くように以下の通りimgタグを使うことにする。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;img src=&quot;&#123;% post_path 記事名 %&#125;picture.png&quot;&gt;</div></pre></td></tr></table></figure></p>
-<h1><span id="おわりに">おわりに</span></h1><p>あとはテーマを変更すればひとまず完成かな。。。少しずつ進めてきたので，完成までの道のりは長い</p>
-
+        
+          <p class="article-more-link">
+            <a href="/2017/09/02/hexo-settings/#more">Read More</a>
+          </p>
+        
       
     </div>
     <footer class="article-footer">
@@ -181,56 +148,12 @@ ga('send', 'pageview');
     <div class="article-entry" itemprop="articleBody">
       
         <p><img src="https://raw.githubusercontent.com/github-archive/media/master/logos/github_logo_social_coding_outlined.png">  </p>
-<p>エンジニアたるもの，技術ブログの一つでも持ってないといけない気がする今日この頃。<br>思い立ってから数ヶ月経ってようやく実行に移してみた。<br>以下に検討内容をメモしておく。</p>
-<h1><span id="目次">目次</span></h1><!-- toc -->
-<ul>
-<li><a href="#どこでどのようにブログを始めるか">どこでどのようにブログを始めるか？</a></li>
-<li><a href="#どのコードジェネレータを使うのか">どのコードジェネレータを使うのか</a></li>
-<li><a href="#github-pages-hexo">Github Pages + HEXO</a></li>
-<li><a href="#おわりに">おわりに</a></li>
-</ul>
-<!-- tocstop -->
-<h1><span id="どこでどのようにブログを始めるか">どこでどのようにブログを始めるか？</span></h1><p>さてブログを開設すると決めたはいいがどこでどう始めるか。。。選択肢は結構あると思う。<br>自分の過去を振り返ると，学生時代にブログをやっていた頃は，下記のような感じでやっていた。  </p>
-<ul>
-<li>Heroku + WordPressでRuby系の技術ブログ<br>Rubyの勉強を兼ねてHerokuを使い始めたので，そこでブログも始めた。<br>「ブログ」=「WordPress」という感じだったので，何も考えずにWordPressを選択。<br>あんまりカスタマイズも更新もせず，すぐ放置。。。  </li>
-<li>FC2ブログで趣味のブログ<br>アフィリエイトで稼ぐぞ！と意気込んで始めたブログ。<br>本気でやるならサーバを借りて独自ドメイン用意して〜という感じなんだろうが、とりあえずお試しで始めたかったので，<br>アフィリエイトが設置できて，自由度が高いブログホスティングサービスを探した結果，FC2にたどり着いた。<br>ほぼ毎日更新して，１年以上続けたけど全然稼げず，<br>趣味がブログを書くためにやっている状態になり，趣味を心から楽しめなくなったのでやめた。  </li>
-</ul>
-<p>今回始めるときは勉強も兼ねて上記で経験したやり方以外でやりたい。<br>他の前提条件としては以下。  </p>
-<ul>
-<li>無料<br>いつでも放置できるように。<br>お金がかかっているとブログ書くことが目的になってしまう気がする。<br>気楽に続けられることが一番！  </li>
-<li>流行りの方法<br>ブログ業界から遠ざかって久しいので，現状の調査とお勉強を兼ねてデファクトを調べたい！  </li>
-</ul>
-<p>そんなこんなで調査。</p>
-<ul>
-<li><a href="http://qiita.com/yamazaki/items/82babef4cb9c29c8ab99" target="_blank" rel="external">独自ドメインで技術系ブログを無料で構築する方法</a></li>
-<li><a href="https://ferret-plus.com/1301" target="_blank" rel="external">本当に使えるのはどれ？ブログ作成でおすすめできる人気の無料サービスを21個比較</a></li>
-<li><a href="https://liginc.co.jp/web/tool/30371" target="_blank" rel="external">意外と知らない？サイトの更新が便利なCMSまとめ【随時更新】</a>  </li>
-</ul>
-<p>んで以下が候補。</p>
-<ul>
-<li>Github Pages + 静的サイトジェネレータ<br>最近流行りの構成？<br>エンジニアっぽいよね  </li>
-<li>はてなブログ<br>みんな使ってるし，バズらせやすい？  </li>
-<li>Qiita<br>最近みんなここに書いている気がする<br>自前で用意しないでここに書いた方が楽だしアクセスも集められる<br>ただ書く内容が技術的なものに制限される  </li>
-</ul>
-<p>結果，<strong>Github Pages + 静的サイトジェネレータ</strong>で始めるのが今熱いらしいのでそれで決定！<br>ある程度まとまった情報になって有用そうなものはQiitaにでも投稿しようかと思う。  </p>
-<h1><span id="どのコードジェネレータを使うのか">どのコードジェネレータを使うのか</span></h1><ul>
-<li><a href="https://awe-some.net/2017/01/statatic-site-generator/" target="_blank" rel="external">2017年注目の「静的サイトジェネレーター」を３つ紹介します。</a>  </li>
-<li><a href="http://qiita.com/tamano/items/d3be25027c9b80bbfb7a" target="_blank" rel="external">静的サイトジェネレータを比較してみた</a>  </li>
-</ul>
-<p>今GO言語が熱いし，HUGOがいいのでは？と思ったけど，<br>GO言語環境ないし，すぐ使える言語のやつにしようと思って<br>ランキング上位でJavaScript製の<strong>HEXO</strong>にした！<br>(なんて読むのかわからん。。。心の中では「ヘクィソ」と呼んでいる)  </p>
-<h1><span id="github-pages-hexo">Github Pages + HEXO</span></h1><p>構築は色々と解説しているサイトがあるのでこちらを参考とする。</p>
-<ul>
-<li><a href="https://hexo.io/docs/index.html" target="_blank" rel="external">HEXO Documentation</a>  </li>
-<li><a href="https://yukiyuriweb.com/blog-at-github-using-hexo/#テーマの設定" target="_blank" rel="external">HexoでGitHubにブログをつくる</a>  </li>
-<li><a href="https://dotstud.io/blog/hexo-static-site-vol1/" target="_blank" rel="external">Node.js製の静的サイトジェネレータ「Hexo」で無料ブログ開発 vol.1</a>  </li>
-</ul>
-<p>Githubへのデプロイで失敗したので，以下で対応した。</p>
-<ul>
-<li><a href="http://qiita.com/Mitsunori_Tsukada/items/6886f1f28d9485484822" target="_blank" rel="external">SSH認証キーをGitHubへ設定する。（Mac用）</a></li>
-</ul>
-<p>あと初日はちゃんと表示されたが，翌日何も表示されない状態となった時があった。<br>原因は不明だが，しばらく待っていたら表示されたので，気にしないことにする。  </p>
-<h1><span id="おわりに">おわりに</span></h1><p>これまで書いてきた内容でブログを構築できた。<br>デザインの変更やコメント欄の追加とか，まだまだカスタマイズでやることは色々あるが，ひとまず完了とする。<br>今後調査・検討したことをここで整理して自分の中で理解を深めていきたい。</p>
-
+<p>エンジニアたるもの，技術ブログの一つでも持ってないといけない気がする今日この頃。<br>思い立ってから数ヶ月経ってようやく実行に移してみた。<br>以下に検討内容をメモしておく。<br>
+        
+          <p class="article-more-link">
+            <a href="/2017/08/18/createHexoBlog/#more">Read More</a>
+          </p>
+        
       
     </div>
     <footer class="article-footer">
