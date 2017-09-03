@@ -7,8 +7,16 @@
     </url>
 
     <url>
+        <loc>https://yatakemi.github.io/2017/09/02/raspberrypi-using-camera/</loc>
+        <lastmod>2017-09-03T13:55:02.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://yatakemi.github.io/2017/09/02/raspberrypi-setting-for-direct-connection/</loc>
-        <lastmod>2017-09-02T14:39:45.000Z</lastmod>
+        <lastmod>2017-09-02T16:11:28.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -25,14 +33,6 @@
     <url>
         <loc>https://yatakemi.github.io/2017/08/18/createHexoBlog/</loc>
         <lastmod>2017-09-02T07:38:11.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://yatakemi.github.io/2017/08/18/hello-world/</loc>
-        <lastmod>2017-08-17T15:59:49.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
