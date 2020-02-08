@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>https://yatakemi.github.io/2020/02/08/modern-application-development/</loc>
+        <lastmod>2020-02-08T14:36:10.698Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://yatakemi.github.io/2019/01/25/free-website-on-gcp/</loc>
         <lastmod>2019-04-03T16:15:19.260Z</lastmod>
         <changefreq>weekly</changefreq>
