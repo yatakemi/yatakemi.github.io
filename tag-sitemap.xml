@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    <url>
+        <loc>https://yatakemi.github.io/tags/Haskell/</loc>
+        <lastmod>2021-09-13T13:48:05.508Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yatakemi.github.io/tags/Tidal/</loc>
+        <lastmod>2021-09-13T13:48:05.508Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yatakemi.github.io/tags/Google/</loc>
+        <lastmod>2021-09-13T13:48:05.508Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yatakemi.github.io/tags/Mac/</loc>
+        <lastmod>2021-09-13T13:48:05.508Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yatakemi.github.io/tags/RaspberryPi/</loc>
+        <lastmod>2021-09-13T13:48:05.508Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yatakemi.github.io/tags/yq/</loc>
+        <lastmod>2021-09-13T13:48:05.508Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yatakemi.github.io/tags/jq/</loc>
+        <lastmod>2021-09-13T13:48:05.508Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yatakemi.github.io/tags/Book/</loc>
+        <lastmod>2021-09-13T13:48:05.508Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yatakemi.github.io/tags/Development/</loc>
+        <lastmod>2021-09-13T13:48:05.508Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yatakemi.github.io/tags/Docker/</loc>
+        <lastmod>2021-09-13T13:48:05.508Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yatakemi.github.io/tags/Vue-js/</loc>
+        <lastmod>2021-09-13T13:48:05.508Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yatakemi.github.io/tags/Nuxt-js/</loc>
+        <lastmod>2021-09-13T13:48:05.508Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yatakemi.github.io/tags/GitHub-Pages/</loc>
+        <lastmod>2021-09-13T13:48:05.508Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yatakemi.github.io/tags/Github/</loc>
+        <lastmod>2021-09-13T13:48:05.508Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yatakemi.github.io/tags/Hexo/</loc>
+        <lastmod>2021-09-13T13:48:05.508Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yatakemi.github.io/tags/GitHub-Actions/</loc>
+        <lastmod>2021-09-13T13:48:05.508Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yatakemi.github.io/tags/GitHub/</loc>
+        <lastmod>2021-09-13T13:48:05.508Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yatakemi.github.io/tags/CI-CD/</loc>
+        <lastmod>2021-09-13T13:48:05.508Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yatakemi.github.io/tags/GCP/</loc>
+        <lastmod>2021-09-13T13:48:05.500Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yatakemi.github.io/tags/Python/</loc>
+        <lastmod>2021-09-13T13:48:05.500Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yatakemi.github.io/tags/OpenAPI/</loc>
+        <lastmod>2021-09-13T13:48:05.500Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://yatakemi.github.io/tags/Java/</loc>
+        <lastmod>2021-09-13T13:48:05.500Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+</urlset>
+<!-- XML Sitemap generated by Hexo SEO Friendly Sitemap Generator -->

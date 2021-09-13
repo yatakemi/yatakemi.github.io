@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>モダンな開発現場にブチ込まれた時に読む本 | myBlog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="スクラム、DevOps、コンテナ、k8s、クラウド、マイクロサービス、、な単語が並ぶ案件にジョインした時、これぐらいは読んでおいたほうが良いよ！というリストをメモしておく。 想定環境： 開発対象 REST API サーバ   開発スタイル - スクラム DevOps   開発環境 クラウド(AWS、GCP、Azure、、、）">
+<meta property="og:type" content="article">
+<meta property="og:title" content="モダンな開発現場にブチ込まれた時に読む本">
+<meta property="og:url" content="https://yatakemi.github.io/2020/02/08/modern-application-development/index.html">
+<meta property="og:site_name" content="myBlog">
+<meta property="og:description" content="スクラム、DevOps、コンテナ、k8s、クラウド、マイクロサービス、、な単語が並ぶ案件にジョインした時、これぐらいは読んでおいたほうが良いよ！というリストをメモしておく。 想定環境： 開発対象 REST API サーバ   開発スタイル - スクラム DevOps   開発環境 クラウド(AWS、GCP、Azure、、、）">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4873116929&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=rlston-22&language=ja_JP">
+<meta property="og:image" content="https://ir-jp.amazon-adsystem.com/e/ir?t=rlston-22&language=ja_JP&l=li1&o=9&a=4873116929">
+<meta property="article:published_time" content="2020-02-08T13:48:48.000Z">
+<meta property="article:modified_time" content="2021-09-13T13:48:05.508Z">
+<meta property="article:author" content="yatakemi">
+<meta property="article:tag" content="Development">
+<meta property="article:tag" content="Book">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4873116929&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=rlston-22&language=ja_JP">
+  
+    <link rel="alternate" href="/atom.xml" title="myBlog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-105026788-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">myBlog</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://yatakemi.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+          <article id="post-modern-application-development" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/02/08/modern-application-development/" class="article-date">
+  <time datetime="2020-02-08T13:48:48.000Z" itemprop="datePublished">2020-02-08</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      モダンな開発現場にブチ込まれた時に読む本
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><a href="https://www.amazon.co.jp/%E3%83%A2%E3%83%80%E3%83%B3Web-%E2%80%95%E6%96%B0%E3%81%97%E3%81%84Web%E3%83%97%E3%83%A9%E3%83%83%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0%E3%81%AE%E5%9F%BA%E7%9B%A4%E6%8A%80%E8%A1%93-Peter-Gasston/dp/4873116929/ref=as_li_ss_il?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=%E3%83%A2%E3%83%80%E3%83%B3%E9%96%8B%E7%99%BA&qid=1581169973&sr=8-51&linkCode=li1&tag=rlston-22&linkId=99315cc6881c18f220cd4c93d3116800&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=4873116929&Format=_SL110_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=rlston-22&language=ja_JP"></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=rlston-22&language=ja_JP&l=li1&o=9&a=4873116929" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;"></p>
+<p>スクラム、DevOps、コンテナ、k8s、クラウド、マイクロサービス、、な単語が並ぶ案件にジョインした時、これぐらいは読んでおいたほうが良いよ！というリストをメモしておく。</p>
+<h3><span id="想定環境">想定環境：</span></h3><ul>
+<li>開発対象<ul>
+<li>REST API サーバ</li>
+</ul>
+</li>
+<li>開発スタイル - スクラム<ul>
+<li>DevOps</li>
+</ul>
+</li>
+<li>開発環境<ul>
+<li>クラウド(AWS、GCP、Azure、、、）</li>
+</ul>
+</li>
+</ul>
+<span id="more"></span>
+
+<h1><span id="目次">目次</span></h1><!-- toc -->
+
+<ul>
+<li><a href="#%E9%96%8B%E7%99%BA%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB">開発スタイル</a><ul>
+<li><a href="#scrum-boot-camp-the-book">SCRUM BOOT CAMP THE BOOK</a></li>
+<li><a href="#%E3%82%AB%E3%82%A4%E3%82%BC%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%8B%E3%83%BC">カイゼンジャーニー</a></li>
+<li><a href="#the-devops-%E9%80%86%E8%BB%A2%E3%81%A0">The DevOps 逆転だ!</a></li>
+</ul>
+</li>
+<li><a href="#%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9">インフラ</a><ul>
+<li><a href="#sre-%E3%82%B5%E3%82%A4%E3%83%88%E3%83%AA%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0-google-%E3%81%AE%E4%BF%A1%E9%A0%BC%E6%80%A7%E3%82%92%E6%94%AF%E3%81%88%E3%82%8B%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%81%E3%83%BC%E3%83%A0">SRE サイトリライアビリティエンジニアリング ―Google の信頼性を支えるエンジニアリングチーム</a></li>
+<li><a href="#dockerkubernetes-%E5%AE%9F%E8%B7%B5%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E9%96%8B%E7%99%BA%E5%85%A5%E9%96%80">Docker/Kubernetes 実践コンテナ開発入門</a></li>
+<li><a href="#kubernetes-%E5%AE%8C%E5%85%A8%E3%82%AC%E3%82%A4%E3%83%89">Kubernetes 完全ガイド</a></li>
+</ul>
+</li>
+<li><a href="#%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3">アーキテクチャ</a><ul>
+<li><a href="#%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3">マイクロサービスアーキテクチャ</a></li>
+<li><a href="#%E3%83%97%E3%83%AD%E3%83%80%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%AC%E3%83%87%E3%82%A3%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9">プロダクションレディマイクロサービス</a></li>
+<li><a href="#design-it-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E5%85%A5%E9%96%80">Design It! ―プログラマーのためのアーキテクティング入門</a></li>
+</ul>
+</li>
+<li><a href="#%E8%A8%AD%E8%A8%88">設計</a><ul>
+<li><a href="#web-api-the-good-parts">Web API: The Good Parts</a></li>
+<li><a href="#%E3%82%A8%E3%83%AA%E3%83%83%E3%82%AF%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%B9%E3%81%AE%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E9%A7%86%E5%8B%95%E8%A8%AD%E8%A8%88">エリック・エヴァンスのドメイン駆動設計</a></li>
+<li><a href="#%E5%AE%9F%E8%B7%B5%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E9%A7%86%E5%8B%95%E8%A8%AD%E8%A8%88">実践ドメイン駆動設計</a></li>
+<li><a href="#clean-architecture-%E9%81%94%E4%BA%BA%E3%81%AB%E5%AD%A6%E3%81%B6%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E3%81%AE%E6%A7%8B%E9%80%A0%E3%81%A8%E8%A8%AD%E8%A8%88">Clean Architecture 達人に学ぶソフトウェアの構造と設計</a></li>
+</ul>
+</li>
+<li><a href="#%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0">プログラミング</a><ul>
+<li><a href="#%E3%83%AA%E3%83%BC%E3%83%80%E3%83%96%E3%83%AB%E3%82%B3%E3%83%BC%E3%83%89-%E3%82%88%E3%82%8A%E8%89%AF%E3%81%84%E3%82%B3%E3%83%BC%E3%83%89%E3%82%92%E6%9B%B8%E3%81%8F%E3%81%9F%E3%82%81%E3%81%AE%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%A7%E5%AE%9F%E8%B7%B5%E7%9A%84%E3%81%AA%E3%83%86%E3%82%AF%E3%83%8B%E3%83%83%E3%82%AF">リーダブルコード ―より良いコードを書くためのシンプルで実践的なテクニック</a></li>
+<li><a href="#%E9%81%94%E4%BA%BA%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC-%E8%81%B7%E4%BA%BA%E3%81%8B%E3%82%89%E5%90%8D%E5%8C%A0%E3%81%B8%E3%81%AE%E9%81%93">達人プログラマー 職人から名匠への道</a></li>
+<li><a href="#%E3%83%AA%E3%83%95%E3%82%A1%E3%82%AF%E3%82%BF%E3%83%AA%E3%83%B3%E3%82%B0%E6%97%A2%E5%AD%98%E3%81%AE%E3%82%B3%E3%83%BC%E3%83%89%E3%82%92%E5%AE%89%E5%85%A8%E3%81%AB%E6%94%B9%E5%96%84%E3%81%99%E3%82%8B">リファクタリング―既存のコードを安全に改善する</a></li>
+<li><a href="#%E3%83%AC%E3%82%AC%E3%82%B7%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%89%E3%81%8B%E3%82%89%E3%81%AE%E8%84%B1%E5%8D%B4-%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E3%81%AE%E5%AF%BF%E5%91%BD%E3%82%92%E5%BB%B6%E3%81%B0%E3%81%97%E4%BE%A1%E5%80%A4%E3%82%92%E9%AB%98%E3%82%81%E3%82%8B-9-%E3%81%A4%E3%81%AE%E3%83%97%E3%83%A9%E3%82%AF%E3%83%86%E3%82%A3%E3%82%B9">レガシーコードからの脱却 ―ソフトウェアの寿命を延ばし価値を高める 9 つのプラクティス</a></li>
+</ul>
+</li>
+<li><a href="#%E3%81%9D%E3%81%AE%E4%BB%96">その他</a><ul>
+<li><a href="#unix-%E3%81%A8%E3%81%84%E3%81%86%E8%80%83%E3%81%88%E6%96%B9%E3%81%9D%E3%81%AE%E8%A8%AD%E8%A8%88%E6%80%9D%E6%83%B3%E3%81%A8%E5%93%B2%E5%AD%A6">UNIX という考え方―その設計思想と哲学</a></li>
+</ul>
+</li>
+<li><a href="#%E3%81%8A%E3%82%8F%E3%82%8A%E3%81%AB">おわりに</a></li>
+</ul>
+<!-- tocstop -->
+
+<h1><span id="開発スタイル">開発スタイル</span></h1><h2><span id="scrum-boot-camp-the-book">SCRUM BOOT CAMP THE BOOK</span></h2><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=rlston-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=4798129712&linkId=ec1d30f2b280b899407899d198b78745"></iframe>
+
+<p>初めてスクラムやるなら必読<br>最低限の知識はこれで身に付く<br>スクラムやったことあるなら読まなくていいかも</p>
+<h2><span id="カイゼンジャーニー">カイゼンジャーニー</span></h2><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=rlston-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=4798153346&linkId=312738d2be62b791555f7f46f0b8fe16"></iframe>
+
+<p>スクラムを知識では知っているが、やったことなくてイメージがつかない人はこれを読むと良い<br>物語を読み進めるだけで、実際に起こりうる問題とその解決を擬似体験することができる<br>スクラムをしばらくやったあとで読むと、物語で起きる問題があるあるすぎて面白い</p>
+<h2><span id="the-devops-逆転だ">The DevOps 逆転だ!</span></h2><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=rlston-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=4822285359&linkId=3f05765763a8073985c2c2f2d977ed20"></iframe>
+
+<p>DevOps 版カイゼンジャーニー<br>DevOps って何？どうやって進めたらいいの？なぜ必要なの？と思っている人は読むと良い<br>アプリ開発チームもそうだが、SRE チームに所属している人はぜひ読んで欲しい</p>
+<h1><span id="インフラ">インフラ</span></h1><h2><span id="sre-サイトリライアビリティエンジニアリング-google-の信頼性を支えるエンジニアリングチーム">SRE サイトリライアビリティエンジニアリング ―Google の信頼性を支えるエンジニアリングチーム</span></h2><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=rlston-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=4873117917&linkId=66c694bc338025646f276a2eb9d43b2e"></iframe>
+
+<p>SRE って何？って人は必読<br>ただ分厚いのでひとまずは前半だけでもささっと読んで SRE とはなんなのか、どのような考え方で働く人を SRE と呼ぶのかを学ぶと良い</p>
+<h2><span id="dockerkubernetes-実践コンテナ開発入門">Docker/Kubernetes 実践コンテナ開発入門</span></h2><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=rlston-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B07GP1Q3VT&linkId=9b1b8fd12c9a7fd4148cc6165d42df5e"></iframe>
+
+<p>コンテナ？Docker?k8s?って人はまずこの本を読むと良い<br>実際 k8s とか使うといろいろなやり方があって、どう使えば良いかわからなくなるが、この本はとりあえずこうやって使っとけ！と割り切った解説になっているので、悩むとこは少ない<br>入門書としては良いと思う</p>
+<h2><span id="kubernetes-完全ガイド">Kubernetes 完全ガイド</span></h2><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=rlston-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B07HFS7TDT&linkId=2486676a1a8b37b3b98e4a928bab4b4b"></iframe>
+
+<p>k8s をもうちょっと調べたい人はこちらも！</p>
+<h1><span id="アーキテクチャ">アーキテクチャ</span></h1><h2><span id="マイクロサービスアーキテクチャ">マイクロサービスアーキテクチャ</span></h2><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=rlston-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=4873117607&linkId=095d760a2d11ac8e910def43312279b5"></iframe>
+
+<p>最近はマイクロサービスで作ることが多い<br>マイクロサービスではなかったとしても考え方として読んでおいたほうが良い<br>薄いしすぐ読める</p>
+<h2><span id="プロダクションレディマイクロサービス">プロダクションレディマイクロサービス</span></h2><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=rlston-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=4873118158&linkId=51afee0068d2ec82c50275b409a9fad0"></iframe>
+
+<p>マイクロサービスを本番適用するならこちらも読んでおこう！</p>
+<h2><span id="design-it-プログラマーのためのアーキテクティング入門">Design It! ―プログラマーのためのアーキテクティング入門</span></h2><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=rlston-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=4873118956&linkId=8620f5e37d091f97477ec41f67d1f00c"></iframe>
+
+<p>アーキテクトに任命されたら必読<br>開発者だとしても読んでおくべき</p>
+<h1><span id="設計">設計</span></h1><h2><span id="web-api-the-good-parts">Web API: The Good Parts</span></h2><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=rlston-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=4873116864&linkId=196f52a6f56eebac8f33e39a972bd033"></iframe>
+API作るならこれ読んでおくと良い
+開発中はAPI設計でいろいろ悩むと思うので、良いAPIとは何なのか理解しておく必要がある
+
+<h2><span id="エリックエヴァンスのドメイン駆動設計">エリック・エヴァンスのドメイン駆動設計</span></h2><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=rlston-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=4798121967&linkId=dcea2526c34dfc52cb8aee5c18586eb4"></iframe>
+
+<p>DDD の原典<br>分厚いし、説明よくわからないかもしれないが、時間があれば読むと良い</p>
+<h2><span id="実践ドメイン駆動設計">実践ドメイン駆動設計</span></h2><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=rlston-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=479813161X&linkId=e1d0f0360b16cae855ad2c1475cab9f4"></iframe>
+
+<p>DDD の原典読むよりこっちを読んだほうが良い<br>特に新規案件なら DDD の考え方を理解しておいたほうが良いので、ぜひ DDD を勉強しよう！</p>
+<h2><span id="clean-architecture-達人に学ぶソフトウェアの構造と設計">Clean Architecture 達人に学ぶソフトウェアの構造と設計</span></h2><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=rlston-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=4048930656&linkId=9ec3e36221d1defd82f0d170bbf8a317"></iframe>
+
+<p>さらに DDD を学び深めたい人はこちらも</p>
+<h1><span id="プログラミング">プログラミング</span></h1><h2><span id="リーダブルコード-より良いコードを書くためのシンプルで実践的なテクニック">リーダブルコード ―より良いコードを書くためのシンプルで実践的なテクニック</span></h2><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=rlston-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=4873115655&linkId=1ebd76837b8bfa67d1029d3b4600bf03"></iframe>
+
+<p>当然読むべき<br>読んでいなくてもこのレベルのことを理解していないプログラマーとは一緒に仕事したくない</p>
+<h2><span id="達人プログラマー-職人から名匠への道">達人プログラマー 職人から名匠への道</span></h2><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=rlston-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=427421933X&linkId=9747e0ec0aca086d0dac37037cb7fc0d"></iframe>
+
+<p>こちらも必読書<br>結構いいこと書いてあるよ</p>
+<h2><span id="リファクタリング既存のコードを安全に改善する">リファクタリング―既存のコードを安全に改善する</span></h2><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=rlston-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=427405019X&linkId=7dc78be51dced920039c40db45649d1d"></iframe>
+
+<p>ちょっと開発が進むとすぐ汚れるので、積極的にリファクタしよう！<br>その際の指針として読んでおくと良い<br>具体的に改善方法が載っている</p>
+<h2><span id="レガシーコードからの脱却-ソフトウェアの寿命を延ばし価値を高める-9-つのプラクティス">レガシーコードからの脱却 ―ソフトウェアの寿命を延ばし価値を高める 9 つのプラクティス</span></h2><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=rlston-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=4873118867&linkId=96b02dc97dfc6d5fad2edb643f021c5a"></iframe>
+
+<p>まだ読んでいないが、いいこと書いてあるらしい</p>
+<h1><span id="その他">その他</span></h1><h2><span id="unix-という考え方その設計思想と哲学">UNIX という考え方―その設計思想と哲学</span></h2><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=rlston-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=4274064069&linkId=14407e40cf1823ab8932fae2ae5664f5"></iframe>
+
+<p>古い本だが考え方は今でも通じる<br>薄い本だし、箸休め的にさらっと読んでおくと良い</p>
+<p>：<br>：<br>：<br>まだまだあるので、あとで追記する</p>
+<h1><span id="おわりに">おわりに</span></h1><p>新人が入ってきた時にこのブログ見せるか。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://yatakemi.github.io/2020/02/08/modern-application-development/" data-id="cktipblx6000b82nh92ytho7d" class="article-share-link">Share</a>
+      
+        <a href="https://yatakemi.github.io/2020/02/08/modern-application-development/#disqus_thread" class="article-comment-link">Comments</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Book/" rel="tag">Book</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Development/" rel="tag">Development</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2021/08/13/hexo-deploy-github-actions/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          GitHubにpushしたらGitHub Pagesに自動デプロイする[GitHub Actions]
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2019/01/24/free-website-on-gcp/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">機械学習を使ったWebサイトを無料で構築する[GCP]</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+
+          <section style="width: 100%; display: flex; justify-content: center;">
+            <!-- ad start -->
+            <iframe
+  src="https://rcm-fe.amazon-adsystem.com/e/cm?o=9&p=293&l=ur1&category=amazonbusiness&banner=1XVHQP06NTXW43GVJ582&f=ifr&linkID=0ba38fdf82c58e9dbb8114ac47a6f365&t=rlston-22&tracking_id=rlston-22"
+  width="640"
+  height="100"
+  scrolling="no"
+  border="0"
+  marginwidth="0"
+  style="border:none;"
+  frameborder="0"
+></iframe>
+
+            <!-- ad end -->
+          </section>
+        </section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Book/" rel="tag">Book</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/CI-CD/" rel="tag">CI/CD</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Development/" rel="tag">Development</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Docker/" rel="tag">Docker</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/GCP/" rel="tag">GCP</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/GitHub/" rel="tag">GitHub</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/GitHub-Actions/" rel="tag">GitHub Actions</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/GitHub-Pages/" rel="tag">GitHub Pages</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Github/" rel="tag">Github</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Google/" rel="tag">Google</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Haskell/" rel="tag">Haskell</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Java/" rel="tag">Java</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Mac/" rel="tag">Mac</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Nuxt-js/" rel="tag">Nuxt.js</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/OpenAPI/" rel="tag">OpenAPI</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Python/" rel="tag">Python</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RaspberryPi/" rel="tag">RaspberryPi</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Tidal/" rel="tag">Tidal</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Vue-js/" rel="tag">Vue.js</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/jq/" rel="tag">jq</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/yq/" rel="tag">yq</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Book/" style="font-size: 10px;">Book</a> <a href="/tags/CI-CD/" style="font-size: 15px;">CI/CD</a> <a href="/tags/Development/" style="font-size: 10px;">Development</a> <a href="/tags/Docker/" style="font-size: 10px;">Docker</a> <a href="/tags/GCP/" style="font-size: 10px;">GCP</a> <a href="/tags/GitHub/" style="font-size: 15px;">GitHub</a> <a href="/tags/GitHub-Actions/" style="font-size: 20px;">GitHub Actions</a> <a href="/tags/GitHub-Pages/" style="font-size: 10px;">GitHub Pages</a> <a href="/tags/Github/" style="font-size: 15px;">Github</a> <a href="/tags/Google/" style="font-size: 10px;">Google</a> <a href="/tags/Haskell/" style="font-size: 10px;">Haskell</a> <a href="/tags/Hexo/" style="font-size: 15px;">Hexo</a> <a href="/tags/Java/" style="font-size: 10px;">Java</a> <a href="/tags/Mac/" style="font-size: 10px;">Mac</a> <a href="/tags/Nuxt-js/" style="font-size: 10px;">Nuxt.js</a> <a href="/tags/OpenAPI/" style="font-size: 10px;">OpenAPI</a> <a href="/tags/Python/" style="font-size: 10px;">Python</a> <a href="/tags/RaspberryPi/" style="font-size: 15px;">RaspberryPi</a> <a href="/tags/Tidal/" style="font-size: 10px;">Tidal</a> <a href="/tags/Vue-js/" style="font-size: 10px;">Vue.js</a> <a href="/tags/jq/" style="font-size: 10px;">jq</a> <a href="/tags/yq/" style="font-size: 10px;">yq</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/08/">8月 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">2月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/01/">1月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">6月 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">10月 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/09/">9月 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">8月 2017</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2021/08/17/random-sampling-github-actions/">無作為抽出 on GitHub Actions</a>
+          </li>
+        
+          <li>
+            <a href="/2021/08/15/github-actions-tips/">GitHub Actions 小ネタメモ</a>
+          </li>
+        
+          <li>
+            <a href="/2021/08/14/cicd-openapigenerate-by-github-actions/">OpenAPI generate を GitHub Actions で自動化</a>
+          </li>
+        
+          <li>
+            <a href="/2021/08/13/hexo-deploy-github-actions/">GitHubにpushしたらGitHub Pagesに自動デプロイする[GitHub Actions]</a>
+          </li>
+        
+          <li>
+            <a href="/2020/02/08/modern-application-development/">モダンな開発現場にブチ込まれた時に読む本</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1454279908261441"
+     crossorigin="anonymous"></script>
+<!-- githubpages -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1454279908261441"
+     data-ad-slot="7131563837"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2021 yatakemi<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+<script>
+  var disqus_shortname = 'https-yatakemi-github-io';
+  
+  var disqus_url = 'https://yatakemi.github.io/2020/02/08/modern-application-development/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+  </div>
+</body>
+</html>
